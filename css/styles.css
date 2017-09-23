@@ -1,0 +1,89 @@
+html {
+    font-size: 100%;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.875rem;
+    color: #0B0D22;
+    background-color: #F5F5F5;
+}
+.wrap {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+header {
+    position: absolute;
+    top: 1.25rem;
+    width: 100%;
+}
+.logo {
+    width: 3.4375rem;
+    height: 3.4375rem;
+}
+.mail-link {
+    float: right;
+    text-decoration: none;
+    color: #614BC3;
+    line-height: 3.4375rem;
+    font-weight: bold;
+}
+
+.hero {
+    color: #614BC3;
+    text-align: center;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.hero-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hero h1 {
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+}
+.hero h2 {
+    font-size: 1.875rem;
+    margin-bottom: 2.25rem;
+}
+.link {
+    margin: 0 0.5rem;
+}
+.link img {
+    height: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-style: italic;
+    line-height: normal;
+}
+
+@media (max-width: 1140px) {
+    html {
+        font-size: 90%;
+    }
+    .wrap {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media (max-width: 640px) {
+    html {
+        font-size: 75%;
+    }
+}
